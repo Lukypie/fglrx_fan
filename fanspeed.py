@@ -7,9 +7,9 @@ import daemon
 
 # These are the variables used to hold the fan speed (percentages)
 # and temperatures at which they are activated. Modify these according 
-# to your GPU's requirements.
+# Modified for my AMD R9 380 4GB
 current_fan = 20
-temps = [55,60,64,70,90]
+temps = [30,40,50,60,70]
 fanspeeds = [20,35,50,60,80]
 
 # Set the GPU fan speed through aticonfig
